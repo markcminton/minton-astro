@@ -2,6 +2,7 @@
 // next/font downloads fonts at build time and serves them locally — no external
 // network request, no layout shift. Fonts generate CSS variables we can use in CSS.
 import { Cormorant_Garamond, Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './globals.css'
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
           <main className="site-main">{children}</main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   )
