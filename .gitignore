@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Old Vite build artifacts
+dist/
+
+# Full-resolution source images
+# These are kept out of git — deploy separately (see hosting notes)
+public/bestPics/
+
+# Environment / secrets
+.env
+.env.local
+.env*.local
+
+# Resume / personal documents
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
