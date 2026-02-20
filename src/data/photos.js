@@ -81,7 +81,7 @@ export const photos = [
     file: 'bestPics-web/RosetteHao3V1Cropped.jpg',
     title: 'Rosette Nebula',
     subtitle: 'NGC 2244',
-    captureNotes: 'Capture details coming soon.',
+    captureNotes: 'Captured in mid February this was the first time I used a 3nm Ha OII filter. After just one 5 minute exposure I was shocked at the depth and detail. The stacked image showed so much background Ha versus the 7nm images I have worked on. This target is likely one I will return to and add more data. Currently working on other color palettes with Narrowband Normilzation',
     exposure: '4 hours',
     filter: 'SVBONY 220 3nm Hα OIII',
     software: 'PixInsight',
