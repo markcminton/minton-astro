@@ -49,7 +49,7 @@ export default function PhotoCard({ photo, index, onClick }) {
             which requires more pixels than the 62vw column width implies. */}
         <div ref={wrapperRef} className="scroll-card-parallax">
           <Image
-            src={`/bestPics/${photo.file}`}
+            src={`/${photo.file}`}
             alt={photo.title}
             fill
             sizes="100vw"

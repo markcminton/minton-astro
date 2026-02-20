@@ -33,7 +33,7 @@ export default function PhotoDetail({ photo, onClose }) {
         {/* Image column */}
         <div className="detail-img-col">
           <Image
-            src={`/bestPics/${photo.file}`}
+            src={`/${photo.file}`}
             alt={photo.title}
             fill
             sizes="(max-width: 768px) 100vw, 55vw"
