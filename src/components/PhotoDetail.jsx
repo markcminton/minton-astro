@@ -95,6 +95,17 @@ export default function PhotoDetail({ photo, onClose }) {
           >
             Wikipedia &rarr;
           </a>
+
+          {photo.skyTarget && (
+            <a
+              href={`https://stellarium-web.org/skysource/${encodeURIComponent(photo.skyTarget)}?lat=29.76&lng=-95.37&fov=50`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="detail-wiki-btn"
+            >
+              View in Stellarium &rarr;
+            </a>
+          )}
         </div>
       </div>
     </div>

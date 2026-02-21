@@ -11,6 +11,7 @@ export const photos = [
     objectInfo:
       'The Pleiades is an open star cluster containing hot blue stars located about 444 light-years away in the constellation Taurus. It is one of the nearest star clusters to Earth and the most obvious to the naked eye. The wispy blue nebulosity surrounding the stars is a reflection nebula caused by dust scattering their light.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Pleiades',
+    skyTarget: 'M45',
   },
   {
     file: 'bestPics-web/m31FinalV1.jpeg',
@@ -24,6 +25,7 @@ export const photos = [
     objectInfo:
       'The Andromeda Galaxy is a barred spiral galaxy approximately 2.537 million light-years from Earth and is the nearest large galaxy to the Milky Way. It contains roughly one trillion stars — more than twice the number in our own galaxy. On a dark night it is visible to the naked eye as a faint smudge, making it the most distant object visible without optical aid.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Andromeda_Galaxy',
+    skyTarget: 'M31',
   },
   {
     file: 'bestPics-web/m33Pix.jpg',
@@ -37,6 +39,7 @@ export const photos = [
     objectInfo:
       'The Triangulum Galaxy is a spiral galaxy about 2.73 million light-years from Earth in the constellation Triangulum. It is the third-largest member of the Local Group of galaxies, after the Andromeda Galaxy and the Milky Way. Its low surface brightness makes it one of the most challenging naked-eye objects, requiring very dark skies.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Triangulum_Galaxy',
+    skyTarget: 'M33',
   },
   {
     file: 'bestPics-web/HorseV3.jpg',
@@ -50,6 +53,7 @@ export const photos = [
     objectInfo:
       'The Horsehead Nebula is a dark nebula in the constellation Orion, about 1,375 light-years away. The recognizable horse-shaped silhouette is a dense cloud of cold gas and dust seen in front of the bright emission nebula IC 434. The nebula is a stellar nursery — new stars are actively forming within its dusty pillars.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Horsehead_Nebula',
+    skyTarget: 'Barnard 33',
   },
   {
     file: 'bestPics-web/cresPixV2.jpg',
@@ -63,6 +67,7 @@ export const photos = [
     objectInfo:
       'The Crescent Nebula is an emission nebula in the constellation Cygnus, about 5,000 light-years away. It was formed by the fast stellar wind from the Wolf-Rayet star WR 136 colliding with and sweeping up slower-moving gas ejected by the star roughly 400,000 years ago. The resulting crescent shape glows in hydrogen-alpha and oxygen emission.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Crescent_Nebula',
+    skyTarget: 'NGC 6888',
   },
   {
     file: 'bestPics-web/OrionV5Vert.jpg',
@@ -76,6 +81,7 @@ export const photos = [
     objectInfo:
       "The Orion Nebula is a diffuse emission and reflection nebula situated south of Orion's Belt, about 1,344 light-years away. It is one of the brightest nebulae visible to the naked eye and the closest large star-forming region to Earth. The nebula contains the Trapezium Cluster, a group of young, hot stars whose ultraviolet radiation ionizes the surrounding gas and causes it to glow.",
     wikiUrl: 'https://en.wikipedia.org/wiki/Orion_Nebula',
+    skyTarget: 'M42',
   },
   {
     file: 'bestPics-web/RosetteHao3V1Cropped.jpg',
@@ -88,6 +94,7 @@ export const photos = [
     objectInfo:
       'The Rosette Nebula is a large spherical emission nebula in the constellation Monoceros, about 5,200 light-years away. At its center lies the open cluster NGC 2244, whose energetic young stars have blown a central cavity in the nebula through stellar winds and radiation pressure. The glowing ionized hydrogen gives the nebula its vivid rose-like structure.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Rosette_Nebula',
+    skyTarget: 'NGC 2244',
   },
   {
     file: 'bestPics-web/bubbleM52Final.jpeg',
@@ -101,6 +108,7 @@ export const photos = [
     objectInfo:
       'The Bubble Nebula is an emission nebula in the constellation Cassiopeia, about 7,100 light-years away. It is a 7-light-year-wide sphere of ionized gas inflated by the intense stellar wind and radiation from the massive O-type star SAO 20575 at its center. The surrounding molecular cloud contains the open cluster M52 just to the northwest.',
     wikiUrl: 'https://en.wikipedia.org/wiki/NGC_7635',
+    skyTarget: 'NGC 7635',
   },
   {
     file: 'bestPics-web/EyePixv2.jpg',
@@ -114,6 +122,7 @@ export const photos = [
     objectInfo:
       'The Helix Nebula is a large planetary nebula in the constellation Aquarius, about 655 light-years away — one of the closest planetary nebulae to Earth. Nicknamed the "Eye of God," it was formed when a Sun-like star shed its outer layers at the end of its life, leaving behind a hot white dwarf at the center that illuminates the expanding shells of gas.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Helix_Nebula',
+    skyTarget: 'NGC 7293',
   },
   {
     file: 'bestPics-web/supermoon.jpg',
@@ -127,5 +136,6 @@ export const photos = [
     objectInfo:
       'The December 2025 Super Moon was at its closest point to Earth, making it appear larger and brighter than usual.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Moon',
+    skyTarget: null,
   },
 ]
