@@ -37,7 +37,7 @@ export default function AboutPage() {
           </div>
           <div className="timeline-item">
             <h3>Software Engineer — Emotion Robotics</h3>
-            <div className="tl-meta">Houston, TX &nbsp;·&nbsp; Aug – Nov 2020</div>
+            <div className="tl-meta">Houston, TX &nbsp;·&nbsp; Aug 2020 – Nov 2020</div>
             <p>
               Implemented real-time people detection on NVIDIA Jetson using ToF sensors and
               delivered custom elevator automation software to customers.
