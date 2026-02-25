@@ -434,6 +434,29 @@ body {
 
 .about-intro p strong { color: var(--text); font-weight: 500; }
 
+.bmc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.4rem;
+  background: transparent;
+  color: #f5c518;
+  border: 1px solid #f5c518;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: background 0.2s, color 0.2s;
+}
+
+.bmc-btn:hover {
+  background: #f5c518;
+  color: #07070f;
+}
+
 .about-section h2 {
   font-family: var(--font-display);
   font-size: 1.5rem;

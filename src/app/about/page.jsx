@@ -19,6 +19,14 @@ export default function AboutPage() {
           data engineering. That same technical eye informs how I approach astrophotography:
           every capture is a calibration problem, every stack a signal-to-noise challenge.
         </p>
+        <a
+          href="https://buymeacoffee.com/markcminton"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bmc-btn"
+        >
+          ☕ Buy Me a Coffee
+        </a>
       </div>
 
       <div className="about-section">

@@ -10,6 +10,13 @@ export default function Footer() {
         >
           LinkedIn
         </a>
+        <a
+          href="https://buymeacoffee.com/markcminton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Buy Me a Coffee
+        </a>
       </div>
       <p className="footer-copy">
         &copy; {new Date().getFullYear()} Mark Minton. All images captured and processed by Mark Minton.
